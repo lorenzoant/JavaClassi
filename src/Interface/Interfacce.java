@@ -1,7 +1,8 @@
+package Interface;
 
-public class main {
+public class Interfacce {
 
-	public main(String[] args) {
+	public Interfacce(String[] args) {
 
     Atleti[] elenco = {new Atleti(1, 19, 12),  //pettorale, età, secondi
     		           new Atleti(2, 19, 13),
