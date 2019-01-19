@@ -1,5 +1,6 @@
 package Polimorfismo;
 import java.awt.Color;
+@SuppressWarnings("unused")
 
 public class Punto extends Figure {
 

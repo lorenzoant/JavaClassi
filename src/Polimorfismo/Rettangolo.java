@@ -1,8 +1,10 @@
 package Polimorfismo;
+@SuppressWarnings("unused")
 
  public class Rettangolo extends Figure {
   private Punto AngoloUpSx=null;
-  
+  //Protected definisce una variabile che può essere modificata solo dalla classe stessa in cui definita o dalle classi figlie
+  //Se avessimo posto invece la keyword "final" il metodo o variabile non sarebbe potuto essere modificato in alcun modo
   protected int base = 0, altezza=0;
 
   

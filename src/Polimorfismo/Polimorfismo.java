@@ -1,9 +1,9 @@
 package Polimorfismo;
-import java.awt.List;
 import java.util.ArrayList;
 import java.util.LinkedList;
 import java.util.Random;
 
+@SuppressWarnings("unused")
 public class Polimorfismo {
 
 	public static void main(String[] args) {

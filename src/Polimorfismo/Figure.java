@@ -2,7 +2,14 @@ package Polimorfismo;
 import java.awt.Color;
 
 enum tipiTratto {fine, medio, normale, forte};
-//Abstract definisce un'azione che deve essere in comune tra tutte le classi
+/*
+ * 
+ * ABSTRACT
+ * Simile alle interfacce ma permette di dichiarare direttamente metodi al suo interno o lasciare la sua
+ * interpretazione alle classi che la estendono, permette inoltre di definire al suo interno variabili non static o final
+ * al suo interno
+ * 
+ */
 public abstract class Figure {
   Color penna = Color.black;
   tipiTratto spessore = tipiTratto.normale;
